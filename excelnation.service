@@ -1,0 +1,19 @@
+# Salin ke /etc/systemd/system/excelnation.service (lihat PANDUAN-ONLINE.md)
+[Unit]
+Description=ExcelNation CBT Edu
+After=network.target
+
+[Service]
+WorkingDirectory=/opt/excelnation
+ExecStart=/usr/bin/node server.js
+Restart=always
+RestartSec=3
+User=excelnation
+Environment=PORT=8080
+Environment=HOST=127.0.0.1
+Environment=TRUST_PROXY=1
+Environment=DATA_DIR=/opt/excelnation/data
+# Environment=TEACHER_CODE=ganti-kode-guru-anda
+
+[Install]
+WantedBy=multi-user.target

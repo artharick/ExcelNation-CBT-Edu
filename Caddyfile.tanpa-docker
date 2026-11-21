@@ -1,0 +1,4 @@
+# Dipakai jika Node dijalankan langsung (tanpa Docker). Ganti domainnya.
+cbt.contoh-sekolah.sch.id {
+	reverse_proxy 127.0.0.1:8080
+}

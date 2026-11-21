@@ -1,0 +1,10 @@
+{
+  "name": "excelnation-cbt-edu",
+  "version": "2.0.0",
+  "description": "ExcelNation CBT Edu — aplikasi ujian berbasis web (server tanpa dependensi)",
+  "main": "server.js",
+  "scripts": { "start": "node server.js" },
+  "engines": { "node": ">=18" },
+  "license": "UNLICENSED",
+  "private": true
+}

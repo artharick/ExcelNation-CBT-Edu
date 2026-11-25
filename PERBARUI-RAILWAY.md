@@ -21,3 +21,9 @@ Commit & push → Railway otomatis build ulang.
 
 ## 5. Bila perlu kembali ke versi lama
 Di Railway → Deployments → pilih deployment sebelumnya → Redeploy. Data tidak berubah.
+
+## Catatan pembaruan 25 Nov 2026
+- Salin juga `sw.js` dan `server.js` terbaru (notifikasi & sesi susulan butuh server baru).
+- Kunci notifikasi (VAPID) dibuat otomatis dan disimpan di berkas data pada Volume — jangan hapus Volume.
+- Notifikasi mensyaratkan https (Railway sudah https) dan siswa menekan "Aktifkan notifikasi" sekali.
+- Ujian yang sudah dipublikasikan: klik **Publikasikan ulang** agar fitur Review jawaban memuat kunci.
